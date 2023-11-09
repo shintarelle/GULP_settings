@@ -1,0 +1,2 @@
+npm i gulp-cli gulp
+npm i -D del@6
