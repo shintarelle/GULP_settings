@@ -1,2 +1,14 @@
 npm i gulp-cli gulp
-npm i -D del@6
+npm i -D del
+npm i -D gulp-file-include
+npm i -D gulp-replace
+npm i -D gulp-webp-html-nosvg
+npm i -D gulp-version-number
+npm i -D gulp-plumber
+npm i -D gulp-notify
+
+npm i -D gulp-pug
+
+npm i -D browser-sync
+npm i -D sass gulp-sass
+npm i -D gulp-rename
