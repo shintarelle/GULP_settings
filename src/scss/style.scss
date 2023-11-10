@@ -5,11 +5,13 @@ body {
   span {
     color: red;
   }
-  background-image: url("@img/phoenix.jpeg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: DinosaurCakeDemo;
+}
+.main {
+  width: 900px;
+  height: 500px;
+  background: url("@img/phoenix.jpeg") 0 0 no-repeat;
+  color: #fff;
 }
 .bgexample {
   width: 200px;
