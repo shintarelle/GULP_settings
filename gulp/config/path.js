@@ -6,17 +6,20 @@ const srcFolder = './src'
 
 export const path = {
   build: {
+    js: `${buildFolder}/js/`,
     css: `${buildFolder}/css/`,
     html: `${buildFolder}/`,
     files: `${buildFolder}/files/`  //куда переносим
   },
   src: {
+    js: `${srcFolder}/js/app.js`,
     scss: `${srcFolder}/scss/style.scss`,
     // html: `${srcFolder}/*.pug`,  //если юзаем pug
     html: `${srcFolder}/*.html`,
     files: `${srcFolder}/files/**/*.*`  //откуда переносим ** любая вложенность *.* любое расширение
   },
   watch: {
+    js: `${srcFolder}/js/**/*.js`,
     scss: `${srcFolder}/scss/**/*.scss`,
     // html: `${srcFolder}/**/*.pug`,  //если юзаем pug
     html: `${srcFolder}/**/*.html`,

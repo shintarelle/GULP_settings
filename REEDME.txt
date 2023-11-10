@@ -12,3 +12,12 @@ npm i -D gulp-pug
 npm i -D browser-sync
 npm i -D sass gulp-sass
 npm i -D gulp-rename
+npm i -D gulp-clean-css
+npm i -D gulp-webpcss
+npm i -D gulp-autoprefixer
+npm i -D gulp-group-css-media-queries
+npm i -D webp-converter@2.2.3
+
+npm i -D webpack webpack-stream
+
+npm i -D swiper
