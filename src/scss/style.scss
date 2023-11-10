@@ -3,7 +3,15 @@ body {
   span {
     color: red;
   }
-  background: url("@img/background.png") 0 0 no-repeat;
+  background-image: url("@img/phoenix.jpeg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgexample {
+  width: 200px;
+  height: 200px;
+  background: url("@img/phoenix.jpeg") 0 0 no-repeat;
 }
 @media (max-width: 768px) {
   span {
