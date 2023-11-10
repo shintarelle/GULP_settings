@@ -21,3 +21,7 @@ npm i -D webp-converter@2.2.3
 npm i -D webpack webpack-stream
 
 npm i -D swiper
+
+npm i -D gulp-webp gulp-imagemin
+
+npm i -D gulp-newer

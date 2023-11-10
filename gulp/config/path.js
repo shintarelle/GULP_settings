@@ -7,12 +7,15 @@ const srcFolder = './src'
 export const path = {
   build: {
     js: `${buildFolder}/js/`,
+    images: `${buildFolder}/img/`,
     css: `${buildFolder}/css/`,
     html: `${buildFolder}/`,
     files: `${buildFolder}/files/`  //куда переносим
   },
   src: {
     js: `${srcFolder}/js/app.js`,
+    images: `${srcFolder}/img/**/*.{jpeg,jpg,png,gif,ico,webp}`,
+    svg: `${srcFolder}/img/**/*.svg`,
     scss: `${srcFolder}/scss/style.scss`,
     // html: `${srcFolder}/*.pug`,  //если юзаем pug
     html: `${srcFolder}/*.html`,
@@ -20,6 +23,7 @@ export const path = {
   },
   watch: {
     js: `${srcFolder}/js/**/*.js`,
+    images: `${srcFolder}/img/**/*.{jpeg,jpg,png,gif,ico,svg,webp}`,
     scss: `${srcFolder}/scss/**/*.scss`,
     // html: `${srcFolder}/**/*.pug`,  //если юзаем pug
     html: `${srcFolder}/**/*.html`,
