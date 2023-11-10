@@ -34,3 +34,5 @@ npm i -D gulp-svg-sprite
 npm i -D gulp-if
 
 npm i -D gulp-zip
+
+npm i -D vinyl-ftp gulp-util
