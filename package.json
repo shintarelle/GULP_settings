@@ -7,7 +7,8 @@
   "scripts": {
     "svgSprite": "gulp svgSpriTe",
     "dev": "gulp",
-    "build": "gulp build --build"
+    "build": "gulp build --build",
+    "zip": "gulp deployZIP --build"
   },
   "author": "Ann",
   "license": "ISC",
@@ -39,6 +40,7 @@
     "gulp-webp": "^5.0.0",
     "gulp-webp-html-nosvg": "^1.1.1",
     "gulp-webpcss": "^1.1.1",
+    "gulp-zip": "^6.0.0",
     "sass": "^1.69.5",
     "swiper": "^11.0.4",
     "ttf2woff2": "^5.0.0",

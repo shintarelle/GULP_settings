@@ -22,6 +22,7 @@ import { js } from './gulp/tasks/js.js'
 import { images } from './gulp/tasks/images.js'
 import { otfToTtf, ttfToWoff, fontsStyle } from './gulp/tasks/fonts.js'
 import { svgSpriTe } from './gulp/tasks/svgSpriTe.js'
+import { zip } from './gulp/tasks/zip.js'
 
 
 
@@ -45,10 +46,12 @@ const mainTasks = gulp.series(fonts, gulp.parallel(copy, html, scss, js, images)
 //построение сценариеввыполнения задач
 const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
 const build = gulp.series(reset, mainTasks);
+const deployZIP = gulp.series(reset, mainTasks, zip)
 
 //Экспорт сценариев
 export { dev }
 export { build }
+export { deployZIP }
 
 //выполнение сценария по умолчанию
 gulp.task('default', dev)

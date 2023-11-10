@@ -32,3 +32,5 @@ npm i -D gulp-fonter-unx  (под мак)
 npm i -D gulp-svg-sprite
 
 npm i -D gulp-if
+
+npm i -D gulp-zip
