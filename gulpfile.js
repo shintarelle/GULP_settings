@@ -19,6 +19,9 @@ import { scss } from './gulp/tasks/scss.js'
 import { js } from './gulp/tasks/js.js'
 import { images } from './gulp/tasks/images.js'
 import { otfToTtf, ttfToWoff, fontsStyle } from './gulp/tasks/fonts.js'
+import { svgSpriTe } from './gulp/tasks/svgSpriTe.js'
+
+
 
 //функция наблюдатель
 function watcher() {
@@ -28,6 +31,8 @@ function watcher() {
   gulp.watch(path.watch.js, js)
   gulp.watch(path.watch.images, images)
 }
+
+export { svgSpriTe } //не включаем в сценарий обо будем делать 1 раз
 
 //Последовательная обработки шрифтов
 const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle)
